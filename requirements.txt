@@ -1,0 +1,11 @@
+lerobot>=0.5.0
+gym-pusht
+mlflow
+scikit-learn
+pandas
+numpy
+matplotlib
+plotly
+# optional:
+# evidently
+# streamlit

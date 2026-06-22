@@ -1,0 +1,18 @@
+dataset:
+  repo_id: lerobot/pusht
+seeds: [0, 1, 2]
+training:
+  policy_type: diffusion   # or: act (faster fallback)
+  steps: 30000
+  batch_size: 64
+  eval_freq: 10000
+  eval_n_episodes: 50
+scoring:
+  drop_fraction: 0.2       # keep top 80% by quality
+  iso_weight: 0.5          # blend weight: isolation forest vs autoencoder
+corruption:
+  fraction: 0.25           # fraction of episodes to corrupt for ground truth
+paths:
+  outputs: outputs
+  plots: results/plots
+  mlruns: results/mlruns
