@@ -104,7 +104,6 @@ comparison, and an **Episode explorer** to browse every demonstration, see its
 Isolation-Forest / autoencoder / composite scores, whether DemoGuard flagged it,
 and its trajectory.
 
-![app](docs/app_screenshot.png)
 
 ---
 
